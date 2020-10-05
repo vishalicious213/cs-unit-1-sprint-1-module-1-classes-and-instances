@@ -16,7 +16,15 @@ class Animal:
 # as described above.
 
 # YOUR CODE HERE
+cat = Animal()
+cat.name = 'Purrfect'
+cat.color = "brown"
+cat.kind = "cat"
 
+dog = Animal()
+dog.name = "Fido"
+dog.color = "black"
+dog.kind = "dog"
 
 # Should print Purrfect is a brown cat.
 print(cat.description())
